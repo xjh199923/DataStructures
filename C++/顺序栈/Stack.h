@@ -12,7 +12,7 @@ class Stack{
 		void overflowProcess();//栈的溢出处理操作
 	public:
 		Stack(int size);//构造函数
-		Stack();//无餐构造函数
+		Stack();//无参构造函数
 		~Stack(){delete []elements;}//析构函数，释放栈的空间
 		
 		void Push(const T& x);//元素x入栈
