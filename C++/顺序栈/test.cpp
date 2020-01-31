@@ -11,10 +11,11 @@ void Menu()
 }
 int main() 
 {
-	Stack<int> stackint(20);//创建一个最大空间为20的栈
+	Stack<int> stackint(4);//创建一个最大空间为20的栈
 	stackint.Push(1);
 	stackint.Push(2);
 	stackint.Push(3);
+	stackint.Push(4);
 	Menu();
 	int choose=1;
 	int tmp;

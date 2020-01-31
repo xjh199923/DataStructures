@@ -9,19 +9,11 @@ class Stack{
 		T* elements;//存放栈中元素的数组
 		int top;//栈顶元素的指针
 		int maxSize;//栈的最大容纳元素个数
-		//void overflowProcess();//栈的溢出处理操作
+		void overflowProcess();//栈的溢出处理操作
 	public:
-		Stack(int size=basesize)//构造函数
-		{
-			if(size>0){
-				maxSize=size;
-				top=-1;
-				creatStack(size);
-			}
-		}
+		Stack(int size);//构造函数
+		Stack();//无餐构造函数
 		~Stack(){delete []elements;}//析构函数，释放栈的空间
-		
-		void creatStack(int n);//创建一个大小为n的栈，并为其动态分配空间
 		
 		void Push(const T& x);//元素x入栈
 		
@@ -41,21 +33,44 @@ class Stack{
 		
 		void print();//展示各种类型的数据，控制格式
 };
-template <class T>
-inline void Stack<T>::creatStack(int n)
-{
-	elements = new T(n);
-	
+template<class T> Stack<T>::Stack()   
+{   
+	this ->maxSize = 10;
+	this ->top = -1;
+	this ->elements = new T[this ->maxSize];
 	if(elements==NULL){
-		cout<<"动态分配错误！"<<endl;
+			cout<<"动态分配错误！"<<endl;
+		}
+}
+template <class T>
+inline Stack<T>::Stack(int size)
+{
+	this ->maxSize = size;
+		this ->top = -1;
+		this ->elements = new T[this ->maxSize];
+		if(elements==NULL){
+				cout<<"动态分配错误！"<<endl;
+			}
+}
+template <class T>
+inline void Stack<T>::overflowProcess()
+{
+	this->maxSize = int (2*this->maxSize);
+	T * temp = new T [this->maxSize];
+	for(int i = 0; i <= this->top ; i++){
+		temp[i] = this->elements[i];
 	}
+	delete []elements;       //释放原来的空间
+	this ->elements = temp;
 }
 //如果栈isFull(),则进行溢出处理，否则将其插入到栈顶
 template <class T>
 inline void Stack<T>::Push(const T &x)
 {
 	if(isFull()==true){
-		//overflowProcess();//溢出处理，调整空间大小
+		cout<<"The stack is full , so need to enlarge 2x!"<<endl;
+		overflowProcess();//溢出处理，调整空间大小
+		elements[++top]=x;
 	}
 	
 	else{
@@ -66,7 +81,7 @@ inline void Stack<T>::Push(const T &x)
 template <class T>
 inline bool Stack<T>::isFull()
 {
-	if(this->getTop()<this->getMaxsize()){
+	if(this->getTop()<this->getMaxsize()-1){
 		return false;
 	}
 	else{
