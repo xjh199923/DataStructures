@@ -16,7 +16,7 @@
    2. 栈
       - [x] [顺序栈](https://www.xiangjunhong.com/posts/278598dc.html)
       
-      - [ ] 链式栈
+      - [x] [链式栈](https://www.xiangjunhong.com/posts/9b621d6f.html)
       
       - [ ] 栈的应用之一 -- 括号匹配
       
