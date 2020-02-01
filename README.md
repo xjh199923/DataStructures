@@ -9,8 +9,7 @@
    
       - [x] 线性表之带附加头结点的链式结构实现
    
-      - [X] 线性表之双向链式结构实现
-            [双向链表的介绍以及分析](https://www.xiangjunhong.com/posts/beb5106a.html)
+      - [x] [线性表之双向链式结构实现](https://www.xiangjunhong.com/posts/beb5106a.html) 
    
       - [x] 线性表之双向循环链式结构实现
       
