@@ -5,16 +5,16 @@
  利用多种语言实现数据结构的相关算法
 ## 一.C语言
    1. 线性表
-      - [x] 线性表顺序结构实现
+      - [x] [线性表顺序结构实现](https://www.xiangjunhong.com/posts/30c404a6.html)
    
-      - [x] 线性表之带附加头结点的链式结构实现
+      - [x] [线性表之带附加头结点的链式结构实现](https://www.xiangjunhong.com/posts/60816b5a.html)
    
-      - [X] 线性表之双向链式结构实现
+      - [x] [线性表之双向链式结构实现](https://www.xiangjunhong.com/posts/beb5106a.html) 
    
-      - [x] 线性表之双向循环链式结构实现
+      - [x] [线性表之双向循环链式结构实现](https://www.xiangjunhong.com/posts/538e5180.html)
       
    2. 栈
-      - [x] 顺序栈
+      - [x] [顺序栈](https://www.xiangjunhong.com/posts/278598dc.html)
       
       - [ ] 链式栈
       
@@ -72,9 +72,9 @@
       - [ ] 归并排序
 ## 二.C++语言
    1. 线性表
-      - [x] 线性表顺序结构实现
+      - [x] [线性表顺序结构实现](https://www.xiangjunhong.com/posts/8cc73e65.html)
    
-      - [x] 线性表之带附加头结点的链式结构实现
+      - [x] [线性表之带附加头结点的链式结构实现](https://www.xiangjunhong.com/posts/6a752619.html)
    
       - [ ] 线性表之双向链式结构实现
    
