@@ -131,5 +131,5 @@ inline void Stack<T>::print()
 template <class T>
 inline T Stack<T>::getTopelements()
 {
-		return elements[getTop()];
+	return elements[getTop()];
 }
