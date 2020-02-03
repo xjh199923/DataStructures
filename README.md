@@ -80,7 +80,7 @@
    
       - [ ] 线性表之双向循环链式结构实现
    2. 栈
-      - [x] 顺序栈
+      - [x] [顺序栈](https://www.xiangjunhong.com/posts/dd845106.html)
       
       - [ ] 链式栈
       
