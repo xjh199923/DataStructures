@@ -16,7 +16,7 @@
    2. 栈
       - [x] [顺序栈](https://www.xiangjunhong.com/posts/278598dc.html)
       
-      - [ ] 链式栈
+      - [x] [链式栈](https://www.xiangjunhong.com/posts/9b621d6f.html)
       
       - [ ] 栈的应用之一 -- 括号匹配
       
@@ -80,7 +80,7 @@
    
       - [ ] 线性表之双向循环链式结构实现
    2. 栈
-      - [x] 顺序栈
+      - [x] [顺序栈](https://www.xiangjunhong.com/posts/dd845106.html)
       
       - [ ] 链式栈
       
@@ -268,4 +268,4 @@
       - [ ] 堆排序
       
       - [ ] 归并排序
->>>>>>> b9a1832258ee49423bd99430026f8ddb63a5ab7a
+
