@@ -86,7 +86,7 @@ void searchSpecifiedElement(struct doubleCircularLinkedList* headNode,int posDat
 		posNodeprior = posNode;
 		posNode = posNodeprior->next;
 		//如果没有找到特殊处理
-		if(posNode->next == headNode)
+		if(posNode == headNode)
 		{
 			printf("不存在元素！\n");
 			return ;

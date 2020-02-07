@@ -42,11 +42,13 @@ class doubleLinkedList
 		doubleLinkedList()
 		{
 			head = new doubleLinkedListNode<T>();//链表产生新头结点
+			length = 0;
 		}
 		//双向链表的构造函数，链表产生新头结点
 		doubleLinkedList(doubleLinkedListNode<T> *note)
 		{
 			head = note;
+			length = 0;
 		}
 		//双向链表的析构函数，链表删除头节点
 		~doubleLinkedList()
