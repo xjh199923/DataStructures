@@ -82,7 +82,7 @@
    2. 栈
       - [x] [顺序栈](https://www.xiangjunhong.com/posts/dd845106.html)
       
-      - [ ] 链式栈
+      - [x] 链式栈
       
       - [ ] 栈的应用之一 -- 括号匹配
       
