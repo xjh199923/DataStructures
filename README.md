@@ -78,7 +78,7 @@
    
       - [x] [线性表之双向链式结构实现](https://www.xiangjunhong.com/posts/5394fce7.html)
    
-      - [ ] 线性表之双向循环链式结构实现
+      - [x] [线性表之双向循环链式结构实现](https://www.xiangjunhong.com/posts/a530f7f0.html)
    2. 栈
       - [x] [顺序栈](https://www.xiangjunhong.com/posts/dd845106.html)
       
