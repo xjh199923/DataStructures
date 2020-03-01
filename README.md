@@ -24,7 +24,7 @@
    3. 队列
       - [x] [顺序队列](https://www.xiangjunhong.com/posts/2d063bc3.html)
       
-      - [ ] 链式队列
+      - [x] [链式队列](https://www.xiangjunhong.com/posts/7fcb11a7.html)
       
       - [ ] 优先级队列
       
